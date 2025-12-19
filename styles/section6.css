@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  background: #f7f8fc;
+}
+
+
+.testimonial-section {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.badge {
+  background: #fff2d9;
+  color: #f4a000;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 70px;
+}
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.card {
+  background: #ffffff;
+  width: 330px;
+  padding: 32px 28px;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.06);
+  transition: all 0.4s ease;
+}
+
+.card.active {
+  transform: translateY(-12px);
+}
+
+.card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card span {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.stars {
+  color: #f59e0b;
+  margin: 14px 0;
+  font-size: 14px;
+}
+
+.quote {
+  position: relative;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #6b7280;
+  padding: 0 26px;
+  text-align: center;
+}
+
+.quote::before {
+  content: "“";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 26px;
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+.quote::after {
+  content: "”";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 26px;
+  color: #f59e0b;
+  font-weight: 700;
+}
