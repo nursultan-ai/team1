@@ -1,58 +1,72 @@
-.footer {
-  background: linear-gradient(180deg, #0f1c24, #0b141a);
-  color: #aab3bb;
-  padding: 60px 80px 30px;
-}
-
-.logo {
-  width: 140px;
-  margin-bottom: 20px;
-}
-
-.footer-col h4 {
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-
-.footer-col p {
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 10px;
-}
-
-.footer-col a {
-  display: block;
-  color: #aab3bb;
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.footer-col a:hover {
-  color: #ffffff;
-}
-
-.socials a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: #1b2a33;
-  color: #ffd400;
-  margin-right: 10px;
-  text-decoration: none;
-}
-
-.socials a:hover {
-  background: #ffd400;
-  color: #0b141a;
-}
-
-.footer-bottom {
-  margin-top: 40px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.1);
+#footer {
+  padding: 80px 0 60px 0;
+  background-color: #101c26;
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-first {
+      img {
+        width: 97px;
+        height: 67px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #f5f5f5;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .footer-icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 27px;
+          height: 27px;
+        }
+      }
+    }
+    .footer-last {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h5 {
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #ffffff;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #b3b3b3;
+      }
+    }
+    .footer-link {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h5 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: aliceblue;
+        margin-bottom: 10px;
+      }
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #b3b3b3;
+      }
+    }
+  }
 }
