@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", Arial, sans-serif;
-}
-
 body {
   background: #f7f8fc;
 }
-
 
 .testimonial-section {
   text-align: center;
@@ -37,20 +29,18 @@ h2 {
   margin-bottom: 70px;
 }
 
-
 .slider {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
-
 .card {
   background: #ffffff;
   width: 330px;
   padding: 32px 28px;
   border-radius: 20px;
-  box-shadow: 0 30px 60px rgba(0,0,0,0.06);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.06);
   transition: all 0.4s ease;
 }
 

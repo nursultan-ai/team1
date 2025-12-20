@@ -1,20 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 .footer {
   background: linear-gradient(180deg, #0f1c24, #0b141a);
   color: #aab3bb;
   padding: 60px 80px 30px;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.2fr;
-  gap: 40px;
 }
 
 .logo {
@@ -67,5 +54,5 @@
 .footer-bottom {
   margin-top: 40px;
   height: 1px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
